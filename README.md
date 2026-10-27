@@ -15,12 +15,12 @@ A minimalist, high-performance personal portfolio engineered for **Adham Hossam*
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
 [![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript_6-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Vercel](https://img.shields.io/badge/Live_Demo-adham--portfolio.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://adham-portfolio-pi.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 <br />
 
-[Explore Highlights](#-showcase-gallery) • [Key Features](#-key-features) • [Tech Stack](#-tech-stack) • [Project Architecture](#-project-architecture) • [Getting Started](#-getting-started)
+[🌐 **Live Website Demo**](https://adham-portfolio-pi.vercel.app) • [Explore Highlights](#-showcase-gallery) • [Key Features](#-key-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started)
 
 ---
 

@@ -233,7 +233,7 @@
 				max-width: 440px
 				height: 380px
 				margin: 4vh 0 3vh 0
-				border-radius: 8px
+				border-radius: 0
 				overflow: hidden
 				position: relative
 
@@ -242,7 +242,7 @@
 					height: 100%
 					object-fit: cover
 					object-position: center 25%
-					border-radius: 8px
+					border-radius: 0
 					display: block
 
 			@media only screen and (max-width: 500px)

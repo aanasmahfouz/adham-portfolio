@@ -52,6 +52,18 @@
 			<h1 class="title" use:titleIn>
 				Hey I'm <br>Adham
 			</h1>
+			<div class="mobile-profile-image">
+				{#await loadImage("assets/imgs/profile-photo.jfif") then src}
+					<img src="{src}" in:maskSlideIn={{ duration: 1200,
+						delay: 100,
+						reverse: true,
+						maskStyles: [
+							{ property: "width", value: "100%"},
+							{ property: "height", value: "100%"}
+						]
+					}} alt="Adham's Profile" class="profile-pic">
+				{/await}
+			</div>
 			<div in:maskSlideIn={{ duration: 1200, reverse: true, delay: 150 }}>
 				<p class="paragraph">
 					I'm a software developer and Computer Science student at Al-Ryada University, Egypt. I specialize in designing and engineering scalable, user-friendly applications and modern web experiences.<br><br>With practical experience spanning front-end and back-end development, I craft responsive solutions tailored to real-world needs. Think we can make something great together? Let's talk over email.
@@ -200,27 +212,64 @@
 
 		@media only screen and (max-width: 950px)
 			&
-				width: 80%
+				width: 100%
+				margin: 0
+				padding: 0
 
 				h1
-					font-size: 25vw !important
+					font-size: 22vw !important
 
 		h1
 			font-size: 20vh
 			font-weight: 400
 			text-transform: none !important
 
+		.mobile-profile-image
+			display: none
+
+			@media only screen and (max-width: 950px)
+				display: block
+				width: 100%
+				max-width: 440px
+				height: 380px
+				margin: 4vh 0 3vh 0
+				border-radius: 8px
+				overflow: hidden
+				position: relative
+
+				img
+					width: 100%
+					height: 100%
+					object-fit: cover
+					object-position: center 25%
+					border-radius: 8px
+					display: block
+
+			@media only screen and (max-width: 500px)
+				max-width: 100%
+				height: 320px
+
 		.paragraph
 			margin-top: 10vh
 			margin-left: 13vw
 			position: relative
 			width: 60%
-			line-height: 1.5rem
+			line-height: 1.6rem
+
+			@media only screen and (max-width: 950px)
+				&
+					margin-top: 2.5vh
+					width: 100%
+					margin-left: 0
+					padding-right: 4vw
+					box-sizing: border-box
 
 			@media only screen and (max-width: 750px)
 				&
 					width: 100%
-					margin-left: 5vw
+					margin-left: 0
+					padding-right: 2vw
+					box-sizing: border-box
 
 			&::before
 				content: ""
@@ -230,6 +279,9 @@
 				right: 115%
 				top: 15%
 				background-color: white
+
+				@media only screen and (max-width: 950px)
+					display: none
 				
 
 		.social-button-wrapper
@@ -241,12 +293,16 @@
 			& :global(*:not(:last-child))
 				margin-right: 2vw
 
-			@media only screen and (max-width: 750px)
+			@media only screen and (max-width: 950px)
 				&
-					margin-left: 5vw
+					margin-left: 0
 
 
 	@media only screen and (max-width: 950px)
+		flex-direction: column
+		margin-top: 20vh
+		padding: 0 6vw
+
 		.profile-image
 			display: none
 

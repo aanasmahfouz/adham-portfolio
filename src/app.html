@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Adham Hossam — Software & Web Developer</title>
+
+	<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+	<link rel="icon" type="image/png" href="%sveltekit.assets%/favicon.png" />
+	<link rel="apple-touch-icon" href="%sveltekit.assets%/favicon.png" />
+
+	<!-- Font imports in global.css  -->
+
+	<!-- SEO -->
+	<meta name="keywords"
+		content="Adham, Hossam, Adham Hossam, Adham Hossam Badr, Portfolio, Web Developer, Full Stack, Software Developer, Frontend, Monufia, Egypt">
+	<meta name="author" content="Adham Hossam">
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
+	<meta name="description"
+		content="Portfolio and personal website of Adham Hossam, a software developer and Computer Science student from Egypt.">
+
+	<style>
+		@font-face {
+			font-family: 'priestacy';
+			src: url('/assets/fonts/Priestacy.otf') format('opentype');
+			font-display: swap;
+		}
+
+		/* Custom sleek scrollbar for WebKit (Chrome, Edge, Safari, Opera, Brave) */
+		::-webkit-scrollbar {
+			width: 8px;
+			height: 8px;
+		}
+		::-webkit-scrollbar-track {
+			background: #151516;
+		}
+		::-webkit-scrollbar-thumb {
+			background: #55555e;
+			border-radius: 9999px;
+			border: 1.5px solid #151516;
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: #7c7c88;
+		}
+		::-webkit-scrollbar-thumb:active {
+			background: #9e9ea8;
+		}
+		::-webkit-scrollbar-corner {
+			background: #151516;
+		}
+
+		/* Firefox fallback */
+		@supports not selector(::-webkit-scrollbar) {
+			* {
+				scrollbar-width: thin;
+				scrollbar-color: #55555e #151516;
+			}
+		}
+	</style>
+
+	%sveltekit.head%
+</head>
+
+<body>
+	<div style="display: contents">
+		%sveltekit.body%
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+[
+    {
+        "id": "restaurant",
+        "title": "Restaurant Platform",
+        "details": {
+            "description": "A modern and responsive dining & restaurant web application featuring interactive menu exploration, table reservations, and seamless culinary showcases.",
+            "summary": "Restaurant Website"
+        },
+        "roles": [
+            "UI/UX Designer",
+            "Front-End Developer"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "View Project",
+                "link": "https://github.com/adhamhossam"
+            }
+        ]
+    },
+    {
+        "id": "online-shop",
+        "title": "Urban Threads Shop",
+        "details": {
+            "description": "An interactive e-commerce shopping experience engineered with real-time multi-attribute product filtering, cart management, and fluid responsive design.",
+            "summary": "Online Shop"
+        },
+        "roles": [
+            "UI/UX Designer",
+            "Front-End Developer"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "View Project",
+                "link": "https://github.com/adhamhossam"
+            }
+        ]
+    },
+    {
+        "id": "university",
+        "title": "Academic Portal",
+        "details": {
+            "description": "A comprehensive front-end educational portal for university students and staff, complete with academic dashboards, course schedules, and curriculum tracking.",
+            "summary": "University Platform"
+        },
+        "roles": [
+            "UI/UX Designer",
+            "Web Developer"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "View Project",
+                "link": "https://github.com/adhamhossam"
+            }
+        ]
+    },
+    {
+        "id": "accounting",
+        "title": "ApexLedger System",
+        "details": {
+            "description": "A robust financial accounting web application for tracking corporate revenue, operating expenses, financial health analytics, and transaction logs.",
+            "summary": "Accounting System"
+        },
+        "roles": [
+            "UI/UX Designer",
+            "Full-Stack Developer"
+        ],
+        "links": [
+            {
+                "type": "web",
+                "text": "View Project",
+                "link": "https://github.com/adhamhossam"
+            }
+        ]
+    }
+]
